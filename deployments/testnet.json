@@ -1,17 +1,25 @@
 {
   "network": "testnet",
   "deployer": "GBYYRWRRF4PNJJMZGE2Q5HUOCPSU3Y4WCTWJ3BQFFNUO3YIPOAD7A357",
-  "deployedAt": "2026-10-25T12:05:09.3780591Z",
+  "deployedAt": "2026-10-25T16:27:54.6165420Z",
+  "identity": "artifex-testnet-platform",
+  "stellarNetwork": "artifex-testnet",
+  "reuse": "Canonical Artifex Testnet living-author set (API registry v4). Artshio reuses these IDs; do not invent parallel Artshio-only Testnet deploys while this pin is active.",
   "usdcSac": "CBIELTK6YBZJU5UP2WWQEUCYKLPU6AUNZ2BQ4WWFEIE3USCIHMXQDAMA",
   "xlmSac": "CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC",
   "contracts": {
     "artifex_roles": "CCDVNSOSY3S45UYZH3N7Q24LUZEK77EAYHWDL5ZYX7H4SDXEFK2G2OYJ",
-    "artifex_fee_collector": "CAYPH6ZSYAQGI67IPJYCNH752VY77O63IGZQOCDSG7STFVNXY6ISFP55",
+    "artifex_fee_collector": "CATWKQFEW2CGBPDVEUYFMJAC27NRNTLDGAMNQHKVMU3OZ54XHHHRMJMS",
     "artifex_connoisseur": "CCEX7WG3M6JW7YWNBSSVP473KIEGWPGMPOP3JFJ6A4BGTBW2UFKQVUDT",
-    "artifex_cert_registry": "CCI7MXOSMYMDSTJOFPZZND4Q2IV2PRGHNF2OXF5ILLU2HGFXCZIL2REH",
+    "artifex_cert_registry": "CDD2BYHRY7ZCMMHBRETM4X2EGVCTKMAGKNRWSCJYHOTLLCWYK2UZY4CC",
     "artifex_whole_nft": "CBEVANRZPBH4XJYGMWZUQMPZYAG2TIOYA6MRZGRNHJJNLSIUTRW3RAKT",
     "artifex_participation": "CBYXLDJXQ4LPA3NX77V6VW4OAVQBZQV6JTNVQ7FZ3VDU7BRTOHSSJLSZ",
     "artifex_marketplace": "CBTFT5GZEA4USVKFPYN7YXU3KUXJJL27ATBD5W72PBORU4CRFB6VA47K",
     "artifex_distribution": "CCZMGEYTOCZ56L6U26ZS6KGWQ2NNUC3FNXFO5LDS6YQYJ5KP2DVGULFX"
-  }
+  },
+  "supersededContracts": {
+    "artifex_fee_collector_pre_living": "CAYPH6ZSYAQGI67IPJYCNH752VY77O63IGZQOCDSG7STFVNXY6ISFP55",
+    "artifex_cert_registry_pre_living": "CCI7MXOSMYMDSTJOFPZZND4Q2IV2PRGHNF2OXF5ILLU2HGFXCZIL2REH"
+  },
+  "seeAlso": "deployments/v4-cert-living.json"
 }
